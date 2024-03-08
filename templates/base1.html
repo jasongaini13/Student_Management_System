@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>{% block title %}
+  {% endblock title %}</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+{% block style %}
+{% endblock style %}
+
+
+  <!-- Template Main CSS File -->
+  <link rel="stylesheet" href="static/style.css">
+<style>
+
+  
+  html {
+  height: 100%;
+}
+
+body {
+  margin:0;
+  padding:0;
+  font-family: sans-serif;
+  background-color:  #d5eafc;
+}
+.student-box{
+    position: absolute;
+  top: 55%;
+  left: 50%;
+  width: 500px;
+  padding: 10px;
+  transform: translate(-50%, -50%);
+  background: rgba(252, 249, 249, 0.952);
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0,0,0,.6);
+  border-radius: 10px;
+}
+</style>
+ 
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header">
+    <div class="container">
+
+      <div id="logo" class="pull-left">
+
+
+      </div>
+
+      <nav class="nav-menu-container">
+        <ul class="nav-menu">
+          <li class="{% block home %}
+          {% endblock home %}" ><a href="/">Home</a></li>
+         
+ <li><a href="/addstudent">Students</a></li>
+ <li><a href="/addattendance">Attendance</a></li>
+ <li><a href="/department">Department</a></li>
+ <li><a href="/studentdetails">Student Details</a></li>
+ <li><a href="/search">Search</a></li>
+       
+    
+          <li><a href="/about">About</a></li>
+          
+   
+
+    {% if current_user.is_authenticated  %}
+          <li class="buy-tickets"><a href="">Welcome {{current_user.username}}</a></li>
+            <li class="buy-tickets"><a href="/logout">Logout</a></li>
+          {% else %}
+          <li class="buy-tickets"><a href="/signup">Signin</a></li>
+        
+          {% endif %}
+        </ul>
+      </nav><!-- #nav-menu-container -->
+    </div>
+  </header><!-- End Header -->
+
+  <!-- <h5>STUDENT MANAGEMENT SYSTEM</h5> -->
+  <!-- ======= Intro Section ======= -->
+ <section id="intro">
+    <div class="intro-container" data-aos="zoom-in" data-aos-delay="100">
+      <!-- <h1 class="mb-4 pb-0">STUDENT MANAGEMENT SYSTEM </span> </h1> -->
+      <!-- <a href="" class="about-btn scrollto">View More</a> -->
+    </div>
+  </section><!-- End Intro Section -->
+  <main id="main">
+
+
+  {% block body %}
+  
+{% with messages=get_flashed_messages(with_categories=true) %}
+{% if messages %}
+{% for category, message in messages %}
+
+<div class="alert alert-{{category}} alert-dismissible fade show" role="alert">
+    {{message}}
+
+
+</div>
+
+
+  {% endfor %}
+  {% endif %}
+  {% endwith %}
+  {% endblock body %}
+
+
+  <a href="#" class="back-to-top"><i class="fa fa-angle-up"></i></a>
+
+
+
+</body>
+
+
+</html>
+
+
+
+
+
+
+
