@@ -27,14 +27,15 @@ This is a simple Student Management System built using Flask and MySQL. The main
 - **Python**: Python is used for backend logic and CRUD operations.
   
 ## Demo of the Project
-![Screenshot 2024-03-08 230038](https://github.com/jasongaini13/student-management-system/assets/143315723/49c653d2-b16e-41ab-9e0e-327727446754)
-![Screenshot 2024-03-08 230055](https://github.com/jasongaini13/student-management-system/assets/143315723/38fa53b9-d5dc-4c98-aafb-c8bbd9004941)
-![Screenshot 2024-03-08 230114](https://github.com/jasongaini13/student-management-system/assets/143315723/f73ba6cd-230b-4f56-aad9-a6c8efb88f81)
-![Screenshot 2024-03-08 230132](https://github.com/jasongaini13/student-management-system/assets/143315723/956ec3df-f1eb-4d83-807f-c81e4f9fb5e8)
-![Screenshot 2024-03-08 230155](https://github.com/jasongaini13/student-management-system/assets/143315723/65611728-ee68-40b7-8161-286349b27243)
-![Screenshot 2024-03-08 230210](https://github.com/jasongaini13/student-management-system/assets/143315723/99d4e0ba-b671-4881-8df7-ee500c6e408d)
-![Screenshot 2024-03-08 230234](https://github.com/jasongaini13/student-management-system/assets/143315723/652de2a3-3210-47fd-b12b-0d288ed5ecc0)
-![Screenshot 2024-03-08 230310](https://github.com/jasongaini13/student-management-system/assets/143315723/e848e8de-8bc7-42ca-8e62-2565d5ad22d7)
+![Screenshot 2024-03-08 230038](https://github.com/jasongaini13/Student_Management_System/assets/143315723/79557b3a-02c6-4e36-a789-3b31162960f5)
+![Screenshot 2024-03-08 230055](https://github.com/jasongaini13/Student_Management_System/assets/143315723/a16d2a3a-af17-49e9-a75f-ff5575971f9f)
+![Screenshot 2024-03-08 230114](https://github.com/jasongaini13/Student_Management_System/assets/143315723/abf29846-08dd-4ce8-8dfc-0e43e962a48b)
+![Screenshot 2024-03-08 230132](https://github.com/jasongaini13/Student_Management_System/assets/143315723/54415dc2-1052-42e0-8450-b2cb848e931a)
+![Screenshot 2024-03-08 230155](https://github.com/jasongaini13/Student_Management_System/assets/143315723/49e76ddb-523d-4154-bf73-6d50ff84745c)
+![Screenshot 2024-03-08 230210](https://github.com/jasongaini13/Student_Management_System/assets/143315723/9e74ce65-e722-47ce-8799-3e5dddf23b4c)
+![Screenshot 2024-03-08 230234](https://github.com/jasongaini13/Student_Management_System/assets/143315723/dad3b599-cc80-4a1e-a066-aff9346ee5d2)
+![Screenshot 2024-03-08 230310](https://github.com/jasongaini13/Student_Management_System/assets/143315723/0ffd9e1d-fe03-4eb0-91fe-6b8433ef80cb)
+
 
 ## Authors
 
